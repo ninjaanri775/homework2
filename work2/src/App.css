@@ -1,0 +1,18 @@
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.products{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+img{
+  width: 200px;
+}

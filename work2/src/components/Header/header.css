@@ -1,0 +1,48 @@
+.header{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    width: 103.8%;
+    height: 50px;
+    position: relative;
+    top: -30px;
+    color: black;
+}
+
+
+.log{
+    background-color: #2196F3;
+    border: none;
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    transition: 0.1s;
+}
+
+.log:hover{
+    background-color: #40a2f2;
+}
+
+
+.register{
+    margin-right: 30px;
+    margin-left: 5px;
+    border: none;
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #e95858;
+    transition: 0.1s;
+}
+
+.register:hover{
+    background-color: #f03e3e;
+}
+
+.shopee{
+    position: relative;
+    right: 35.6%;
+    font-size: 19px;
+}

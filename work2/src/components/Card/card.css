@@ -1,0 +1,32 @@
+.card{
+    width: 300px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: white;
+}
+
+h3{
+    position: relative;
+    margin-top: -10px;
+    top: 30px;
+}
+
+.buy{
+    background-color: rgb(94, 244, 94);
+    border: none;
+    width: 60%;
+    height: 30px;
+    color: white;
+    font-size: 19px;
+    transform: translateY(40px);
+    transition: 0.2s;
+}
+
+.buy:hover{
+    background-color: rgb(121, 245, 140);
+    color: rgb(221, 221, 221);
+}
